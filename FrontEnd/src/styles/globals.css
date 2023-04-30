@@ -1,0 +1,28 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color:  rgb(2, 114, 179);
+
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  /* max-width: 100vw; */
+  /* overflow-x: hidden; */
+  font-family: 'Manrope';
+   background-image: linear-gradient(to right, rgba(82, 201, 248, 0.13), rgba(126, 90, 226, 0.329));
+
+}
+
+
+

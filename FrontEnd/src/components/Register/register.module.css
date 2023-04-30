@@ -1,0 +1,14 @@
+.contenedor{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.espacios{
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+}
+
+

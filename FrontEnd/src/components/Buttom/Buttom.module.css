@@ -1,0 +1,21 @@
+.ButtomPrimary {
+  position: absolute;
+  width: 5.875rem;
+  height: 2rem;
+  background: none;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.SecondaryButtom {
+  position: absolute;
+  width: 5.875rem;
+  height: 2rem;
+  background: none;
+  border: 1px solid rgb(2, 114, 179);
+  color: rgb(2, 114, 179);
+  border-radius: 10px;
+  cursor: pointer;
+}

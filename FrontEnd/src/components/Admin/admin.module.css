@@ -1,0 +1,36 @@
+.adminGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    list-style: none;
+    border: 1px solid  rgb(2, 114, 179);
+    height: 10vh;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 1rem;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+  }
+
+  .gral{
+    position: fixed !important;
+  width: 100%;
+  background-color: #ffffff;
+    
+  }
+  
+  .adminGrid li {
+    padding: 10px;
+    text-align: center;
+    margin-top:4%;
+
+  }
+
+  .buttom{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin-top: 1vh;
+    padding-bottom: 2vh;
+
+  }

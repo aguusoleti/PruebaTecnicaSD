@@ -1,0 +1,41 @@
+.grid{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
+   row-gap: 2vh;
+   margin-left: 4vh;
+}
+
+ .gridadmin { 
+  display: grid;
+  flex-direction: row;
+  margin-top: 100px; 
+  align-content: center; 
+   align-items: center; }
+
+  .adminGrid {
+   display: grid;
+   grid-template-rows: repeat(5, 1fr);
+   list-style: none;
+   border: 1px solid  rgb(2, 114, 179);
+   /* height: 10vh; */
+   margin-left: 4%;
+   margin-right: 4%;
+   border-radius: 1rem;
+   box-shadow: black;
+   padding-top: 10%;
+  
+ }
+ 
+ .adminGrid li {
+   padding: 10px;
+   text-align: center ;
+   margin-top:4%;
+ 
+ }
+
+
+
+   .adminGrid li img{
+      width: 80px;
+      height: 80px;
+   }

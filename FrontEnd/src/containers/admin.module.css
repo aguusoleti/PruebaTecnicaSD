@@ -1,0 +1,20 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.flex li{
+    width: 30vh;
+    height: 10vh;
+}
+
+.flex li input{
+    width:27vh;
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    word-wrap: break-word;
+    font-size: 1rem;
+}
