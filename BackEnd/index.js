@@ -26,7 +26,5 @@ const PORT = process.env.PORT || 5000;
 
   app.listen(PORT, () => {
     console.log(`Servidor arrancado en el http://localhost:${PORT}`);
-
-	console.log("HOLA")
   });
 })();
