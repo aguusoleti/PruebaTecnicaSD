@@ -19,7 +19,18 @@ const editProduct = async (req, res) => {
     res.status(200).json(userProduct);
   } catch (error) {
     console.log(error);
-    res.status(400).json(error);
+    res.status(404).json({message:"Product not found"});
+
+  }
+};
+const getProduct = async (req, res) => {
+  const { id } = req.params;
+  try {
+    const product = await Product.findOne({ _id: id })
+    res.status(200).json(product);
+  } catch (error) {
+    console.log(error);
+    res.status(404).json({message:"Product not found"});
   }
 };
 const deleteProduct = async (req, res) => {
@@ -45,9 +56,10 @@ const getProducts = async (req, res) => {
       res.status(404).json({ message: "Producto no encontrado" });
     }
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    res.status(500).json({});
+
   }
 };
 
 
-export { createProducts, editProduct, deleteProduct, getProducts};
+export { createProducts, editProduct, deleteProduct, getProducts,getProduct};
