@@ -4,8 +4,7 @@ import {useGetProducts} from '@/pages/api/hello';
 import ProductsAdmin from "../../containers/ProductsAdmin.js"
 
 const CardsAdmin = () => {
-    const API2 = "http://localhost:5000/api/products";
-    const products = useGetProducts(API2);
+    const products = useGetProducts();
 
     return (
         <div className={styles.adminGrid}>

@@ -5,8 +5,7 @@ import Products from '@/containers/Products.js';
 
 
 const Cards = () => {
-    const API2 = "http://localhost:5000/api/products";
-    const products = useGetProducts(API2);
+    const products = useGetProducts();
 
     return (
         <div className={styles.grid}>

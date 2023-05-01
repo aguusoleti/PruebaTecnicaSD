@@ -28,6 +28,8 @@ const Register = ({ handleClose }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
+  const [error, setError] = useState(null);
+
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -56,6 +58,8 @@ const Register = ({ handleClose }) => {
         handleClose();
       })
       .catch(error => {
+        setError('Credenciales incorrectas');
+
         console.error(error);
       });
   };
@@ -112,6 +116,11 @@ const Register = ({ handleClose }) => {
             />
           </Typography>
           </div>
+          {error && (
+            <Typography color="error" sx={{ mt: 2 }}>
+              {error}
+            </Typography>
+          )}
           <Button variant="contained" onClick={handleRegister}>
             Registrarse
           </Button>
