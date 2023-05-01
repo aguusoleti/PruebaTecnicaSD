@@ -1,12 +1,13 @@
 .flex{
     display: flex;
     justify-content: space-between;
-   
 }
 
 .flex li{
     width: 30vh;
     height: 10vh;
+   margin-bottom: 2vh;
+
 }
 
 .flex li input{
