@@ -153,5 +153,149 @@ Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto
 
 
 [Volver al Inicio](#beginning)
----
+--------------------------------------------------------------------------------------------------------
 
+<a name="EN"></a>
+# Stoy Dots
+
+![Story Dots](https://prueba-tecnica-sd.vercel.app/logo.jpeg)
+
+
+# Product Gallery
+
+The Product Gallery is an application that allows you to view a catalog of Story Dots. You can access the application as a guest to view the products or register and login as a user. If you have the administrator role, you will have the ability to view, modify, create, and delete products.
+
+# BackEnd
+
+The backend of the application consists of three main models: products, users, and brands. Each of these models has its respective routes and controllers to perform different operations.
+
+### Products
+The products model contains the information of the products available in the gallery. The associated routes and controllers allow you to create, edit, delete, and get all products. You can also filter the products based on any property.
+
+### Users
+The users model handles user registration and authentication. The associated routes allow you to create a new user and perform login.
+
+### Brands
+The brands model is used to create and manage the brands of the products in the gallery. You can add new brands through the corresponding routes.
+
+Additionally, all routes have implemented validators using Joi to ensure data integr
+
+# FrontEnd
+
+Key Features
+
+Intuitive and appealing user interface.
+
+User registration and authentication.
+
+Viewing available products.
+
+Filtering products by specific properties.
+
+Additional functionalities for administrators, such as modifying, creating, and deleting products.
+
+## Project Setup
+
+Follow these steps to set up the project and run the application in your local environment:
+
+Clone this repository to your local machine.
+
+Open a terminal in the project's root folder.
+
+Run the following command to install the dependencies:
+
+npm install
+
+Set up the environment variables in a .env file. Make sure to include the backend URL and any other necessary configurations.
+
+
+## Project Structure  
+The project structure follows a modular and scalable architecture. Here is a summary of the main directories and files:
+
+pages: Contains the application pages.
+
+components: Groups reusable user interface components.
+
+api: Provides functions to make requests to the backend.
+
+styles: Contains custom styles and themes for the application.
+
+public: Stores static files for the application.
+
+
+# Usage
+Clone this repository to your local machine.
+
+Install the dependencies using the command npm install.
+
+Set up the environment variables in a .env file (see below).
+
+Run the application with the command npm start.
+
+## Environment Variables
+
+Make sure to configure the following environment variables in a .env file:
+
+|nombre         |Datos                                 |
+|---------------|--------------------------------------|
+|DB_CONNECTION: |Cadena de conexión a la base de datos.|
+|JWT_SECRET:    |Clave secreta para generar tokens JWT.|
+
+cd BackEnd/
+
+npm install
+
+npm run dev
+
+cd FrontEnd/
+
+npm install
+
+npm run dev
+
+This will start the Next.js development server, and you can access the application in your browser at http://localhost:3000.
+
+# Contributions
+If you want to contribute to this project, please follow these steps:
+
+Fork this repository.
+
+Create a new branch for your feature (git checkout -b feature/new-feature).
+
+Make your changes and commit them with explanatory messages.
+
+Push your changes to the remote repository (git push origin feature/new-feature).
+
+Open a pull request to review your changes.
+
+## ROLES 
+
+| Developer          | Role                    | LinkedIn                                                   | GitHub                                    |
+| ------------------ | ----------------------- | ---------------------------------------------------------- | ----------------------------------------- |
+| Agustin Soleti     | FullStack               | https://www.linkedin.com/in/aguusoleti/                    | https://github.com/aguusoleti             |
+
+## Contact
+
+If you have any questions or suggestions, feel free to contact us. We hope you enjoy using the Product Gallery!
+
+
+## Used Technologies:
+
+        En el Frontend:
+
+<p align="left">
+## Next
+## React
+## MUI
+</p>
+
+        En el Backend:
+
+<p align="left">
+## MongoDb
+## Node.js
+## Express
+</p>
+
+
+[Back to the init](#beginning)
