@@ -39,3 +39,53 @@
     margin-top: 5%;
 }
 
+@media screen and (max-width: 768px) {
+  .cards {
+    width: 60vh;
+    height: 60vh;
+  }
+
+  .cards img {
+    height: 35vh;
+  }
+
+  .cards h2 {
+    margin-top: 4vh;
+  }
+
+  .cards h3 {
+    width: 25vh;
+    margin-top: 4vh;
+  }
+
+  .box {
+    width: 80vh;
+    margin-left: 10%;
+  }
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+  .cards {
+    width: 80vh;
+    height: 80vh;
+  }
+
+  .cards img {
+    height: 45vh;
+  }
+
+  .cards h2 {
+    margin-top: 6vh;
+  }
+
+  .cards h3 {
+    width: 30vh;
+    margin-top: 6vh;
+  }
+
+  .box {
+    width: 90vh;
+    margin-left: 5%;
+  }
+}
