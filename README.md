@@ -30,6 +30,14 @@ El modelo brands se utiliza para crear y administrar las marcas de los productos
 
 Además, todas las rutas cuentan con validadores implementados utilizando Joi para garantizar la integridad de los datos.
 
+### Routes
+
+http://localhost:5000/api/users/register
+http://localhost:5000/api/users/login
+http://localhost:5000/api/products/:id
+http://localhost:5000/api/products/edit/:id
+
+
 # FrontEnd
 
 Características principales
@@ -179,6 +187,14 @@ The users model handles user registration and authentication. The associated rou
 The brands model is used to create and manage the brands of the products in the gallery. You can add new brands through the corresponding routes.
 
 Additionally, all routes have implemented validators using Joi to ensure data integr
+
+
+### Routes
+
+http://localhost:5000/api/users/register
+http://localhost:5000/api/users/login
+http://localhost:5000/api/products/:id
+http://localhost:5000/api/products/edit/:id
 
 # FrontEnd
 
