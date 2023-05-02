@@ -33,8 +33,11 @@ Además, todas las rutas cuentan con validadores implementados utilizando Joi pa
 ### Routes
 
 http://localhost:5000/api/users/register
+
 http://localhost:5000/api/users/login
+
 http://localhost:5000/api/products/:id
+
 http://localhost:5000/api/products/edit/:id
 
 
@@ -192,9 +195,13 @@ Additionally, all routes have implemented validators using Joi to ensure data in
 ### Routes
 
 http://localhost:5000/api/users/register
+
 http://localhost:5000/api/users/login
+
 http://localhost:5000/api/products/:id
+
 http://localhost:5000/api/products/edit/:id
+
 
 # FrontEnd
 
